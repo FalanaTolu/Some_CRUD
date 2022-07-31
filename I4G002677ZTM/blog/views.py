@@ -29,15 +29,3 @@ class PostDeleteView(generic.UpdateView):
     success_url  = reverse_lazy("blog:all")
 
 
-
-
-
-# def PostListView(ListView):
-#     model = Post
-#     return render(request, "home.html", blog_post)
-
-# def PostCreateView()
-# def PostDetailView()
-# def PostUpdateView()
-# def PostDeleteView()
-
